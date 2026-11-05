@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px #00000010;
+}
+
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+
+.subtitle {
+    text-align: center;
+    color: #64748b;
+}
+
+.upload-box {
+    margin-top: 25px;
+    padding: 30px;
+    text-align: center;
+    border: 2px dashed #93c5fd;
+    border-radius: 12px;
+    background: #eff6ff;
+}
+
+input[type="file"] {
+    max-width: 100%;
+    margin: 15px;
+}
+
+img {
+    display: none;
+    max-width: 100%;
+    max-height: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    padding: 12px 20px;
+    background: #2563eb;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.result {
+    margin-top: 25px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 140px;
+    padding: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+    font-size: 16px;
+    line-height: 1.7;
+    resize: vertical;
+}
+
+#telugu {
+    font-size: 20px;
+}
+
+#status {
+    text-align: center;
+    color: #2563eb;
+    margin-top: 20px;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+@media(max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+}
